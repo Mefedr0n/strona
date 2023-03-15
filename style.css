@@ -5,3 +5,36 @@ html{
 text-align: center;
 color: black;
 }
+#slots {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .linia {
+    width: 30%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .symbol {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+  }
+  
+  #krec {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
